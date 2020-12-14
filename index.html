@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>CV</title>
+		<style type="text/css">
+		h1 
+		{
+			font-family: 'Arial';
+			font-size: 30px;
+			color:white;
+		}
+		h2
+		{
+			font-family: 'Arial';
+			font-size:18px;
+			font-style:italic;
+			color:white;
+		}
+		h3
+		{
+			font-family: 'Arial';
+		}
+		p
+		{
+			font-family: 'Arial';
+			font-size:13px;
+		}
+		body 
+		{
+			background-color: #EAF2F8;
+			color: noir;
+			font-family: 'Playfair Display', serif;
+		}
+		table
+		{
+			border-collapse: separate;
+			border-spacing: 20px 20px;
+			font-size:20px;
+		}
+		#center
+		{
+			text-align: center;
+		}
+		
+		#box
+		{
+			background-image: url('zwp.jpg');
+			background-repeat: no-repeat;
+			background-size: 100%;	
+			margin:0;
+			padding:0;
+		}
+		#transparent
+		{
+			background:rgba(0,0,10,0.7);
+			background-size: 100%;
+		}
+		@keyframes imgzchange {
+			0% {
+				transform: translateY(-100%);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+		@keyframes imgchange {
+			0% {
+				transform: translateY(100%);opacity:0;
+			}
+			100% {
+				transform: translateY(0);opacity:1;
+			}
+		}
+		#imgz{
+			display:flex;
+			align-items:center;
+			justify-content:center;	
+			overflow: hidden;
+			animation: imgzchange 2s linear;
+		}
+		#img{
+			display:flex;
+			align-items:center;
+			justify-content:center;	
+			animation: imgchange 2s linear;
+		}
+		#textleft
+		{
+			
+			padding:50px;
+			text-align:left;
+		}
+		#experience{
+			background:white;
+			margin:20px 80px;
+			
+		}
+		#inline{
+			display:inline-block;
+		}
+		#borderbottem{
+			border-width:0 0 1px 0;
+			border-style:solid;
+			border-color:grey;
+		}
+		#centerleft
+		{
+			display:flex;
+			justify-content:flex-start;
+			
+		}
+		#left
+		{
+			flex:none;
+			justify-content:flex-start;
+			align-items:flex-start;
+			text-align: left;	
+			display:inline-block;					
+		}
+		#lefttopright2030{
+			display:inline-block;
+			padding:20px 30px 0 0;
+		}
+		#round
+		{
+			border-radius:50%;
+			overflow:hidden;
+		}
+		#borderround
+		{
+			width:35%;
+			height:18px;
+			border-radius:5px;
+			overflow:hidden;
+		}
+		#borderround150
+		{
+			width:50%;
+			height:18px;
+			border-radius:5px;
+			overflow:hidden;
+		}
+		#borderround200
+		{
+			width:75%; 
+			height:18px;
+			border-radius:5px;
+			overflow:hidden;
+		}
+		#w100
+		{
+			display:inline-block;
+			width:80px;
+		}
+		#w150
+		{
+			display:inline-block;
+			width:150px;
+		}
+		footer
+		{
+			padding:5px;
+			text-align: center;
+			font-family: 'Arial';
+			background:#c6d3db;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="transparent">
+				<div id="imgz">
+					<div id="textleft">
+						<h1>WENG Zhiying</h1>
+						<h2>Developpeur</h2><br><br>
+						<p style="color:white;font-size:11px"><em>
+							Add: 94200 Ivry sur Seine<br>
+							Tél: 06 98 86 60 07<br>
+							Email: wengzhiying@hotmail.com</em>
+						</p>
+					</div>
+					<div id="img"><img id="round"  src="zwp.jpg" alt="photo de zw"></div>
+				</div>
+			</div>
+		</div>
+		<div id="experience">
+			<div style="padding:0 50px">
+				<div id="centerleft">
+						<h3>Expériences Professionnelles</h3>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="left" style="padding-right:30px">				
+							<img src="aspenlogos.jpg" alt="logo ASPEN">
+						</div>
+						<div id="left">
+							
+							<h4>Stage de Développeur de site web</h4>
+							<p>
+								ASPEN Télécoms<br>
+								2013
+							</p>
+							<P>
+								Projet : Refonte du site web (PHP, Html, CSS, Mysql)
+							</P>
+						</div>
+					</div>
+				</div>
+				
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030" >				
+							<img src="lgpc.jpg" alt="logo LGPC">
+						</div>
+						<div id="left">							
+							<h4>Stage de Master 2</h4>
+							<p>
+								LGPC (Laboratoire de Génie des Procédés Catalytiques) <br>
+								2006 - 2007
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img src="lace.jpg" alt="logo LACE">
+						</div>
+						<div id="left">							
+							<h4>Stage de Master 1</h4>
+							<p>
+								L.A.C.E  (Laboratoire d’Application de la Chimie à l’Environnement) <br>
+								2005
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img id="round" src="yiwang.jpg" alt="yiwang">
+						</div>
+						<div id="left">
+							
+							<h4>Chef du Département Network</h4>
+							<p>
+								Société YIWANG Scientifique et Technique,Shanghai <br>
+								2001-2004
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img id="round" src="zhengmao.jpg" alt="zhengmao">
+						</div>
+						<div id="left">							
+							<h4>Administratrice</h4>
+							<p>
+								SARL ZHENGMAO  Industrielle et Commerciale de Shanghai <br>
+								1999-2000
+							</p>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>	
+		</div>
+		
+		<div id="experience">
+			<div style="padding:0 50px">
+				<div id="centerleft">
+						<h3>Formations</h3>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="left" style="padding-right:30px">				
+							<img src="aston.jpg" alt="logo aston">
+						</div>
+						<div id="left">
+							
+							<h4>Formation .NET, ASTON l’école d’informatique</h4>
+							<p>
+								2013
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img src="school.jpg" alt="logo school">
+						</div>
+						<div id="left">
+							<h4>BAC+5 en Catalyse et Chimie-Physique, Université Claude Bernard (Lyon1)</h4>
+							<p>
+								2007
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img src="school.jpg" alt="logo school">
+						</div>
+						<div id="left">
+							
+							<h4>BAC+4 en Chimie Appliquée/Chimie Organique,Université de Shanghai</h4>
+							<p>
+								1999
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="borderbottem">
+					<div>
+						<div id="lefttopright2030">				
+							<img src="school.jpg" alt="logo school">
+						</div>
+						<div id="left">	
+							<h4>BAC S – Shanghai</h4>
+							<p>
+								1995
+							</p>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>	
+		</div>
+		
+		<div id="experience">
+			<div style="padding:0 50px">
+				<div id="centerleft">
+					<h3>Compétences</h3>
+				</div>
+				<div id="inline" style="width: 50%;">
+					<div id="inline">
+						<div id="centerleft">
+							<h4 style="font-family: Arial, sans-serif;">Professtionnels</h4>
+						</div>
+						<div>
+							<div id="w100">
+								<p>HTML/CSS</p>
+							</div>
+							<div id="left">				
+								<img id="borderround200" src="barre.png" alt="barre">
+							</div>
+						</div>
+					
+				
+						<div>
+							<div id="w100">
+								<p>PHP/MySQL</p>
+							</div>
+							<div id="left">				
+								<img id="borderround200" src="barre.png" alt="barre">
+							</div>
+						</div>
+										
+				
+				
+						<div>					
+							<div id="w100">
+								<p>C#</p>
+							</div>
+							<div id="left">				
+								<img id="borderround" src="barre.png" alt="barre">
+							</div>
+						</div>
+				
+						<div>						
+							<div id="w100">
+								<p>PYTHON<p>
+							</div>
+							<div id="left">				
+								<img id="borderround" src="barre.png" alt="barre">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="inline" >
+					<div id="inline">
+						<div id="centerleft">
+							<h4 style="font-family: Arial, sans-serif;">Personnels</h4>
+						</div>
+						<div>
+							<div id="w100">
+								<p>Adaptation</p>
+							</div>
+							<div id="left">				
+								<img id="borderround200" src="barre.png" alt="barre">
+							</div>
+						</div>
+					
+				
+						<div>
+							<div id="w100">
+								<p>Autonome</p>
+							</div>
+							<div id="left">				
+								<img id="borderround200" src="barre.png" alt="barre">
+							</div>
+						</div>
+										
+				
+				
+						<div>					
+							<div id="w100">
+								<p>Sérieux</p>
+							</div>
+							<div id="left">				
+								<img id="borderround200" src="barre.png" alt="barre">
+							</div>
+						</div>
+				
+						<div>						
+							<div id="w100">
+								<p>Céativité</p>
+							</div>
+							<div id="left">				
+								<img id="borderround150" src="barre.png" alt="barre">
+							</div>
+						</div>
+					</div>
+				</div><br>
+
+			</div>	
+		</div>
+		
+	</body>
+	<footer>	
+		<div>
+			<p>
+				&copyWENG Zhiying 2020<br>
+				Reproduction à des fins commerciales interdite<br>
+				Merci de respecter les travailles des auteurs
+			</p>
+		</div>		
+	</footer>
+	</html>
